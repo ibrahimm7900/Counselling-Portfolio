@@ -143,3 +143,9 @@
     
 }
 
+
+@media screen and (max-width: 431px) {
+    .uil .uil-apps {
+        margin-left: 300px;
+    }
+}

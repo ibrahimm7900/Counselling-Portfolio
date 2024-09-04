@@ -8,19 +8,23 @@ const Qualification = () => {
     const toggleTab = (index) => {
         setToggleState(index);
     }
+    const [activeNav, setActiveNav ] = useState('#education')
   return (
     <section className='qualification section' id="qualification">
-        <h2 className="section_title">Qualification</h2>
+        <h2 className="section_title" >Qualification</h2>
         <span className="section_subtitle">My personal journey</span>
 
         <div className="qualification_container container">
             <div className="qualification_tabs">
-                <div className={toggleState === 1 ? 
+                <div  className={toggleState === 1 ? 
                       "qualification_button qualification_active button--flex" 
                     : "qualification_button button--flex"}
-                onClick={() => toggleTab(1)}>
+                onClick={() => toggleTab(1)}
+                >
                     <i className="uil uil-graduation-cap qualification_icon"></i>
-                    Education
+                   
+                   Education 
+                   
                 </div>
 
                 <div className={toggleState === 2 ? 

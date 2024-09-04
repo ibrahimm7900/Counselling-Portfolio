@@ -108,15 +108,17 @@ i.uil:hover {
     stroke-width: 10; /* Ensure stroke width is visible */
 }
 
-@keyframes rotate {
-    0% {
-        transform: rotate(0deg);
+@keyframes slidein {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
     }
-    100% {
-        transform: rotate(360deg);
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
     }
-}
-    
+  }
 
 .home__scroll {
     margin-left: 9.25rem;
