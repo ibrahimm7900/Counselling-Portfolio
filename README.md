@@ -7,7 +7,7 @@ This repository showcases a responsive and interactive portfolio website built u
 - **Responsive Design**: Ensures seamless functionality across various devices and screen sizes using CSS media queries.
 - **Component-based Architecture**: Modular design using React.js, making the codebase easy to maintain and extend.
 - **Interactive Elements**: Includes features like a testimonial carousel, image gallery, and scroll-to-top button to enhance user engagement.
-- **API Integration**: Integrated with  **Email** APIs** to allow users to contact the client directly through their preferred platform.
+- **API Integration**: Integrated with **WhatsApp**, **Email**, and **Facebook APIs** to allow users to contact the client directly through their preferred platform.
 
 ## Project Structure
 
