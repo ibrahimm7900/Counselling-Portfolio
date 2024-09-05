@@ -1,4 +1,4 @@
-# Portfolio Website
+# Portfolio Website :briefcase:
 
 This repository showcases a responsive and interactive portfolio website built using **React.js** and **CSS**. The project highlights key front-end development skills, including component-based architecture, responsive design, and user interaction, all essential for building professional web applications. The website is integrated with **WhatsApp**, **Email**, and **Facebook APIs** to facilitate seamless client communication.
 
