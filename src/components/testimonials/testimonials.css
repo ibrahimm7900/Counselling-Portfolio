@@ -3,7 +3,7 @@
 }
 
 .testimonial_card {
-    background-color: var(--container-color);
+    background-color: #8eaebb;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1.5rem 2rem;
     border-radius: 1.5rem;

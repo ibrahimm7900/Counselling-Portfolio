@@ -22,7 +22,8 @@ textarea {
 }
 
 body{
-  background-color: var(--body-color);
+  background-color: #bdd9cd;
+  height: 200px;
   color: var(--text-color);
 }
 
@@ -42,6 +43,7 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+  
 }
 
 img {
@@ -55,7 +57,7 @@ img {
 
 .section_title {
   font-size: var(--h1-font-size);
-  color: var(--title-color);
+  color: #153b50;
   margin-bottom: var(--mb-1);
 }
 
@@ -63,6 +65,7 @@ img {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
+  color: #2c5164;
 }
 
 .section_title,
@@ -115,7 +118,7 @@ img {
 --title-color-dark: hsl(var(--hue), var(--sat), 0%);
 --text-color: hsl(var(--hue), var(--sat), 46%);
 --body-color: hsl(var(--hue), var(--sat), 91%);
---container-color: #e8e4e4;
+--container-color: #fefefe;
 
 --body-font: 'Poppins', sans-serif;
 

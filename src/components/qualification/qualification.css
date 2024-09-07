@@ -11,22 +11,23 @@
 .qualification_button {
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
-    color: var(--title-color);
+    color: #214457;
     margin: 0 var(--mb-1);
     cursor: pointer;
 }
 
 .qualification_button:hover{
-    color: var(--title-color-dark);
+    color: #214457;
 }
 
 .qualification_icon {
     font-size: 1.8rem;
     margin-right: var(--mb-0-25);
+    
 }
 
 .qualification_active {
-    color: var(--title-color-dark);
+    color: #214457
 }
 
 .qualification_sections {
@@ -50,6 +51,7 @@
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
     column-gap: 2.5rem;
+    color: #051827;
     
 }
 
@@ -57,23 +59,27 @@
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     margin-bottom: 10px;
+    color: #051827;
 }
 
 .qualification_subtitle {
     display: inline-block;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-1);
+    color: #214457;
+    font-weight: 500;
 }
 
 .qualification_calender {
     font-size: var(--small-font-size);
+    color: #051827;
 }
 
 .qualification_rounder {
     display: inline-block;
     width: 13px;
     height: 13px;
-    background-color: gray;
+    background-color: #051827;
     border-radius: 50%;
 }
 
@@ -81,7 +87,7 @@
     display: block;
     width: 1px;
     height: 100%;
-    background-color: black;
+    background-color: #386994;
     transform: translate(6px, -7px );
 }
 
@@ -89,9 +95,15 @@
     
     font-weight: 600;
     font-size: 25px;
-    transition: .2s ease-in;
+    transition: .1s ease-in;
 }
- 
+
+.uil.uil-graduation-cap,
+.uil.uil-briefcase-alt
+ {
+    color: #051827;
+    font-size: 1.5rem;
+}
 @media  screen and (max-width: 992px) {
     .qualification_container {
         margin-left: auto;

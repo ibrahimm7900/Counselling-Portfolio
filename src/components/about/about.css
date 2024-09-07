@@ -2,6 +2,7 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     column-gap: 4rem;
+    
 }
 
 .about_img {
@@ -17,7 +18,7 @@
 }
 
 .about_box {
-    background-color: rgb(245, 245, 245);
+    background-color: #8eaebb;
     border: 1px solid rgb(0, 0, 0, 0.1);
     border-radius: 0.75rem;
     text-align: center;

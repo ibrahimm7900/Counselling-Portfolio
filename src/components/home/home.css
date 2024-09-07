@@ -4,13 +4,15 @@
 }
 
 .button.button--flex {
-    background-color: rgb(26, 25, 25);
+    background-color: #214457;
     gap: 10px;
     margin-top: px;
 }
 
 .button.button--flex:hover {
-    background-color: rgb(40, 40, 40);
+    background-color: #8eaebb;
+    transition: .1s ease-in-out;
+    font-size: 19px;
 }
 
  svg.button__icon   {
@@ -35,6 +37,8 @@
 .home_title {
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-25);
+    color: #051827;
+    
 }
 
 .home__hand {
@@ -59,6 +63,7 @@
     padding-left: 5.4rem;
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
+    color: #214457;
 }
 
 .home_description {
@@ -67,18 +72,13 @@
 }
 
 i.uil {
-    color: black;
+    color: rgb(28, 40, 81);
     font-size: 1.25rem;
 }
 
 
 
-i.uil:hover {
-    color: rgb(38, 38, 39);
-    font-size: 1.75rem;
-    transition: .2s ease-in-out;    
-    
-}
+
 
 
 
@@ -120,8 +120,11 @@ i.uil:hover {
     }
   }
 
+  
+
 .home__scroll {
     margin-left: 9.25rem;
+    
 }
 
 .wheel {
@@ -142,14 +145,14 @@ i.uil:hover {
 }
 
 .home__scroll-name {
-    color: black;
+    color: #051827;
     font-weight: var(--font-medium);
     margin-right: var(--mb-0-25);
     margin-left: 4px;
 }
 
 .home__scroll-arrow {
-    color: black;
+    color: #051827;
 }
 
 @media screen and (max-width: 992px) {

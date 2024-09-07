@@ -34,7 +34,7 @@
     flex-direction: column;
     align-items: center;
     font-size: var(--small-font-size);
-    color: rgb(73, 72, 72);
+    color: #427792;
     font-weight: var(--font-medium);
     transition: .3s;
 }
@@ -49,7 +49,7 @@
 
 .active-link,
 .nav_link:hover {
-    color: black;
+    color: #2a4755;
 }
 
 .scroll-header {

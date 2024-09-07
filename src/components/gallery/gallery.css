@@ -4,12 +4,15 @@
 }
 
 .Gallery_card {
-       
-    background: rgba(217, 207, 219, 0.2);
-    border-radius: 10%;
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(217, 207, 219, 0.3);
+    /* From https://css.glass */
+    background: rgba(20, 69, 95, 0.441);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.1px);
+    -webkit-backdrop-filter: blur(12.1px);
+    border: 1px solid rgba(33, 68, 87, 0.066);   
     margin-bottom: 60px;
+    border-radius: 10px 40px;
     
 }
 

@@ -26,8 +26,8 @@ function App() {
       <Gallery />
       <Contact />
      </main>
-     <Footer />  
      <ScrollUp />
+     <Footer />  
     </>
   );
 }
