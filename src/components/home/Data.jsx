@@ -54,7 +54,7 @@ const Data = () => {
                   ></path>
       </svg>
       </h1>
-      <h3 className="home_subtitle">Counselling coach</h3>
+      <h3 className="home_subtitle">Dip.Couns, BA (Hons)</h3>
       <p className="home_description">I'm counseller based in New York, and I'm very passionate and dedicated to my work.</p>
     <a href="contact" className="button button--flex">
       Contact me

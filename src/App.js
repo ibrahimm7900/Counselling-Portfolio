@@ -33,3 +33,5 @@ function App() {
 }
 
 export default App;
+
+/* Add feature which allows text to fade in when scrolling */

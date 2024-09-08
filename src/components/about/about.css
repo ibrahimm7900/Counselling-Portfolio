@@ -9,6 +9,7 @@
     width: 350px;
     border-radius: 1.5rem;
     justify-self: center;
+    margin-bottom: 100px;
 }
 
 .about_info {
@@ -43,6 +44,8 @@
 .about_description {
     padding: 0 4rem 0 0 ;
     margin-bottom: var(--mb-2-5);
+    text-align: center;
+    
 }
 
 @media screen and (max-width: 992px) {
@@ -53,6 +56,7 @@
 
     .about_img {
         width: 220px;
+       
     }
 
     .about_box {

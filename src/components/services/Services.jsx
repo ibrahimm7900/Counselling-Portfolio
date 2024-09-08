@@ -19,7 +19,7 @@ const Services = () => {
                 <div>
                     <i className="uil uil-web-grid services__icon"></i>
                     <h3 className="services_title">
-                    Product <br /> Designer
+                    Couples <br /> Therapy
                     </h3>
                 </div>
 
@@ -30,7 +30,7 @@ const Services = () => {
                 <div className={toggleState === 1 ? "services_model active-modal" : "services_model"}>
                     <div className="services_model-content">
                         <i onClick={() => toggleTab(0)} className="uil uil-times services_model-close"></i>
-                        <h3 className="services_modal-title">Product Designer</h3>
+                        <h3 className="services_modal-title">Couples Thearapy</h3>
                         <p className="services_modal-description">
                         Service with more than 3 years of experience.
                         Providing quality work to clients and companies.
@@ -91,7 +91,7 @@ const Services = () => {
                 <div>
                     <i className="uil uil-arrow services__icon"></i>
                     <h3 className="services_title">
-                    Ui/Ux <br /> Designer
+                    Psychodynamic  <br /> Therapy
                     </h3>
                 </div>
 
@@ -163,7 +163,7 @@ const Services = () => {
                 <div>
                     <i className="uil uil-edit services__icon"></i>
                     <h3 className="services_title">
-                    Visual <br /> Designer
+                    Group <br /> Therapy
                     </h3>
                 </div>
 

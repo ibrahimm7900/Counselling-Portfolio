@@ -16,10 +16,8 @@ const About = () => {
         <div className="about_data">
             <Info />
             <p className='about_description'>
-                Frontend developer, 
-                I create web pages with UI / UX user interface, 
-                I have years of expereince and many clients are 
-                happy with the projects carried out
+            Welcome! I’m [Client's Name], a dedicated and compassionate counselor with [X years] of experience helping individuals navigate through life’s challenges. My approach is rooted in empathy, understanding, and a deep commitment to personal growth. Whether you’re dealing with stress, anxiety, relationship issues, or just need a safe space to talk, I’m here to listen and support you on your journey.
+            
             </p>
             <a download="" href={CV} className="button button--flex">Download CV
             <svg

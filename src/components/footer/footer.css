@@ -43,7 +43,8 @@
 }
 
 .footer_social-link:hover {
-    background-color: var(--title-color-dark);
+    background-color: #c6d3dc;
+    
 }
 
 .footer_copy {
