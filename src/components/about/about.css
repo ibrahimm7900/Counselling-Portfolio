@@ -5,11 +5,13 @@
     
 }
 
+
 .about_img {
     width: 350px;
     border-radius: 1.5rem;
     justify-self: center;
     margin-bottom: 100px;
+    background-color: black;
 }
 
 .about_info {

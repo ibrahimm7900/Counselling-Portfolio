@@ -131,7 +131,16 @@
 }
 
 /* For small devices */
+@media screen and (max-width: 420px){
+    .nav_toggle {
+        font-size: 3.1rem;
+        margin-right: 50px;
+        margin-bottom: 25px;
+        cursor: pointer;
+        
+    }
 
+}
 @media screen and (max-width: 350px) {
     .nav_menu {
         padding: 2rem 0.25rem 4rem;
@@ -148,4 +157,38 @@
     .uil .uil-apps {
         margin-left: 300px;
     }
+
+    
+        .nav_toggle {
+            font-size: 3.1rem;
+            margin-right: 20px;
+            margin-bottom: 25px;
+            cursor: pointer;
+            
+        }
+
+        .nav_menu {
+            padding: 2rem 0.25rem 4rem;
+            width: 90%;
+        }
 }
+
+.uil.uil-apps {
+  color: rgb(33, 80, 116);
+}
+
+@media screen and (max-width: 391px){
+    .nav_toggle {
+        font-size: 3.1rem;
+        margin-right: 10px;
+        margin-bottom: 25px;
+        cursor: pointer;
+        
+    }
+    .nav_menu {
+        padding: 2rem 0.25rem 4rem;
+        width: 90%;
+    }
+}
+
+
